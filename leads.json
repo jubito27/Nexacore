@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john@example.com",
+    "phone": "123-456-7890",
+    "message": "This is a test message",
+    "timestamp": "2026-04-08T18:19:37.384423",
+    "status": "new"
+  }
+]

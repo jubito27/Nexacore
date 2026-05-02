@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexacore Softwares - Digital Innovation Solutions</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <i class="fas fa-rocket"></i> Nexacore
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#stats">Stats</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container h-100 d-flex align-items-center">
+            <div class="row w-100">
+                <div class="col-lg-6 d-flex flex-column justify-content-center">
+                    <h1 class="hero-heading">Transforming Businesses Through Digital Innovation</h1>
+                    <p class="hero-subheading">Nexacore Softwares Pvt Ltd helps businesses grow with modern IT solutions.</p>
+                    <div>
+                        <a href="#contact" class="btn btn-primary btn-lg me-3">Get a Quote</a>
+                        <a href="#services" class="btn btn-outline-light btn-lg">Explore Services</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="https://via.placeholder.com/400x300?text=About+Nexacore" alt="About" class="img-fluid rounded-3">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="section-title">About Nexacore</h2>
+                    <p class="lead">Nexacore Softwares Pvt Ltd is a leading IT consulting and development company providing scalable digital solutions including web, mobile, and enterprise applications.</p>
+                    <p>We empower businesses to innovate and scale with cutting-edge technology solutions tailored to your unique needs.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check text-success me-2"></i> <strong>5+ Years</strong> of industry expertise</li>
+                        <li><i class="fas fa-check text-success me-2"></i> <strong>150+ Happy Clients</strong> worldwide</li>
+                        <li><i class="fas fa-check text-success me-2"></i> <strong>24/7 Support</strong> for all projects</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Our Services</h2>
+            <div class="row g-4">
+                <!-- Service 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h4>Web Development</h4>
+                        <p>Building responsive, high-performance websites that drive conversions and engagement.</p>
+                    </div>
+                </div>
+                <!-- Service 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h4>Mobile App Development</h4>
+                        <p>Native and cross-platform apps that deliver exceptional user experiences.</p>
+                    </div>
+                </div>
+                <!-- Service 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-cubes"></i>
+                        </div>
+                        <h4>ERP Solutions</h4>
+                        <p>Enterprise resource planning systems for streamlined business operations.</p>
+                    </div>
+                </div>
+                <!-- Service 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <h4>E-commerce Development</h4>
+                        <p>Scalable e-commerce platforms that maximize sales and customer satisfaction.</p>
+                    </div>
+                </div>
+                <!-- Service 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h4>Digital Marketing</h4>
+                        <p>Strategic digital marketing to drive traffic, leads, and brand awareness.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center text-white mb-5">Our Work Done</h2>
+            <div class="row text-center text-white">
+                <div class="col-md-3 stat-item">
+                    <div class="stat-number">450+</div>
+                    <div class="stat-label">Mobile Apps Developed</div>
+                </div>
+                <div class="col-md-3 stat-item">
+                    <div class="stat-number">600+</div>
+                    <div class="stat-label">Web Apps Developed</div>
+                </div>
+                <div class="col-md-3 stat-item">
+                    <div class="stat-number">800+</div>
+                    <div class="stat-label">Websites Developed</div>
+                </div>
+                <div class="col-md-3 stat-item">
+                    <div class="stat-number">90+</div>
+                    <div class="stat-label">Other Projects</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="cta-section py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="cta-heading">Have a Project in Mind?</h2>
+            <p class="cta-subtext">Let's build something amazing together.</p>
+            <a href="#contact" class="btn btn-primary btn-lg">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Get In Touch</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form id="contactForm" method="POST" action="{{ url_for('submit_contact') }}">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control form-control-lg" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control form-control-lg" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number (Optional)</label>
+                            <input type="tel" class="form-control form-control-lg" id="phone" name="phone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control form-control-lg" id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                        </div>
+                    </form>
+                    <div id="successMessage" class="alert alert-success mt-3" role="alert" style="display: none;">
+                        ✓ Thank you! Your message has been sent successfully. We'll get back to you soon!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Nexacore Softwares Pvt Ltd</h5>
+                    <p>Transforming businesses through digital innovation.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p>&copy; 2026 Nexacore Softwares Pvt Ltd. All rights reserved.</p>
+                    <a href="#" class="text-white me-3">Privacy Policy</a>
+                    <a href="#" class="text-white">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
